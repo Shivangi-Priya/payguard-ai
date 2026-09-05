@@ -267,5 +267,5 @@ PayGuard AI introduces a new category of fraud detection: **intent-aware authori
 Every payment request is evaluated not just against transaction signals (amount, device, location) but against a structured representation of what the user actually asked for. The system maintains an **intent hash** (SHA-256 of the extracted structured intent) and a **basket hash** (SHA-256 of the final basket), and these hashes are included in the signed payment request — creating a cryptographically-verifiable audit trail from user intent to final payment.
 
 This makes PayGuard AI fundamentally different from traditional fraud systems: it can detect attacks that look legitimate from a transaction perspective but violate the user's declared intent.
-#   p a y g u a r d - a i  
+
  
